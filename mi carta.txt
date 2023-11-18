@@ -1,3 +1,10 @@
-1-.Nombre del proyecto 
-2-. Nombre y primer apellido 
-3-. Grupo 
+programa 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int llaves = 3;  // Elemento recolectable: llaves
+    int decision;
+
+    cout << "¡Bienvenido a la historia interactiva!\n";
