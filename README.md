@@ -1,4 +1,4 @@
 # mi-primer-repositorio
-proyecto echo por tadeo
+proyecto de integracion a la computacion
 Tadeo Ceballos
 grupo 1158
