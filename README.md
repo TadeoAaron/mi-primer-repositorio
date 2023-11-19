@@ -1,4 +1,4 @@
 # mi-primer-repositorio
-proyecto de integracion a la computacion
-Tadeo Ceballos
-grupo 1158
+## Tadeo_Ceballos_1158
+### Grupo: 1158
+### Nombre: Tadeo Ceballos
