@@ -1,5 +1,5 @@
 #include <iostream>
-#include <limits> // Para limpiar el buffer del cin después de leer un tipo incorrecto
+#include <limits> // Para limpiar el buffer del cin despuÃ©s de leer un tipo incorrecto
 
 using namespace std;
 int main() 
@@ -7,26 +7,26 @@ int main()
     int vida = 1;  // Elemento recolectable: vida
     int decision;
     int decisionJuego;  // Nueva variable para manejar las elecciones dentro del bucle interno
-    bool regresarAlMenuPrincipal;  // Nueva variable para controlar el regreso al menú principal
+    bool regresarAlMenuPrincipal;  // Nueva variable para controlar el regreso al menÃº principal
 
-    cout << "****** ¡Bienvenido a la historia interactiva! ******" << endl;
+    cout << "****** Â¡Bienvenido a la historia interactiva! ******" << endl;
 
     do 
     {
-        // Reiniciar la variable para cada iteración del bucle principal
+        // Reiniciar la variable para cada iteraciÃ³n del bucle principal
         regresarAlMenuPrincipal = false;
 
         // Mostrar estado actual
         cout << "--- Menu Principal ;) --" << endl;
-        cout << " introduzca su opcion en valor numerico "<<endl;
-        cout << " (aveces necesita doble confirmacion no pude arreglarlo perdon :c )"<<endl;
+        cout << " introduzca su opcion con los numeros del teclado y luego enter "<<endl;
+        cout << " (aveces necesita doble introduccion de numero,no pude arreglarlo perdon :c )"<<endl;
         cout << "1. Iniciar juego" << endl;
-        cout << "2. ¿Historia?" << endl;
+        cout << "2. Â¿Historia?" << endl;
         cout << "3. Creditos " << endl;
         cout << "4. Salir" << endl;
         cout << "Selecciona una opcion: ";
 
-        // Limpiar el buffer del cin antes de leer la opción
+        // Limpiar el buffer del cin antes de leer la opciÃ³n
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
@@ -37,7 +37,7 @@ int main()
             case 1:
                 do 
                 {
-                    // Reiniciar la variable para cada iteración del bucle interno
+                    // Reiniciar la variable para cada iteraciÃ³n del bucle interno
                     regresarAlMenuPrincipal = false;
 
                     // Mostrar estado actual
@@ -46,13 +46,13 @@ int main()
                     cout << "1. Seguir adelante" << endl;
                     cout << "2. Mirar a la luna" << endl;
                     cout << "3. Agarrar la pala que esta tirada" << endl;
-                    cout << "4. Ponerte a pensar, ¿por que estas aqui?" << endl;
+                    cout << "4. Ponerte a pensar, Â¿por que estas aqui?" << endl;
                     cout << "-- Estado actual --" << endl;
                     cout << "Vida: " << vida << endl;
                     cout << "5. Regresar al Menu Principal" << endl;
                     cout << "Selecciona una opcion: ";
 
-                    // Limpiar el buffer del cin antes de leer la opción
+                    // Limpiar el buffer del cin antes de leer la opciÃ³n
                     cin.clear();
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
@@ -60,14 +60,14 @@ int main()
 
                     switch (decisionJuego)
                     {
-                        // Código de acciones
+                        // CÃ³digo de acciones
                         case 1:
-                            // Código para la opción 1
+                            // CÃ³digo para la opciÃ³n 1
                             
-                              // Código para la opción 1
+                              // CÃ³digo para la opciÃ³n 1
                             cout << "--- Estado actual ---" << endl;
                             cout << "     Vida: " << vida << endl;
-                            cout << "-- Te aventuras en el bosque. ¿Qué decides hacer? --" << endl;
+                            cout << "-- Te aventuras en el bosque. Â¿QuÃ© decides hacer? --" << endl;
                             cout << "1. Seguir caminando derecho." << endl;
                             cout << "2. Seguir a la derecha." << endl;
                             cout << "3. Seguir la luz misteriosa." << endl;
@@ -92,10 +92,10 @@ int main()
                             break;
                             
                         case 2:
-                            // Código para la opción 2
+                            // CÃ³digo para la opciÃ³n 2
                              cout << "--- Estado actual ---" << endl;
                             cout << "        Vida: " << vida << endl;
-                            cout << "-- Decidiste mirar a la luna. ¿Sera buena idea? --" << endl;
+                            cout << "-- Decidiste mirar a la luna. Â¿Sera buena idea? --" << endl;
                             cout << "1. Seguir mirando" << endl;
                             cout << "2. Dejar de mirar " << endl;
                             cout << "3. HUIR" << endl;
@@ -119,8 +119,8 @@ int main()
 
                             break;
                         case 3:
-                            // Código para la opción 3
-                           cout << "Agarras la pala ¿Que decides hacer?"<<endl;
+                            // CÃ³digo para la opciÃ³n 3
+                           cout << "Agarras la pala Â¿Que decides hacer?"<<endl;
                            cout << "        Vida: " << vida << endl;                           
                             cout << "1. Cabar ai mismo"<<endl;
                             cout << "2. Golperar al arbol misterioso"<<endl;
@@ -130,8 +130,8 @@ int main()
 
                             if (decisionJuego == 1)
                             {
-                                cout << "   Cabaz ai mismo ¿Que es eso un cuerpo?  "<<endl;
-                                cout << "   No puede ser ¿Es es mi madre?  "<<endl;
+                                cout << "   Cabaz ai mismo Â¿Que es eso un cuerpo?  "<<endl;
+                                cout << "   No puede ser Â¿Es es mi madre?  "<<endl;
                                 cout << "  personaje:  Si es ella "<<endl;
                                 cout << "  personaje: nooo mi madre "<<endl;
                                 cout<< " No aguantas la idea de perder a tu madre y te suicidas"<<endl;
@@ -140,11 +140,11 @@ int main()
                             else if (decisionJuego == 2) 
                             {
                                  cout << "Golpeas al arbol"<<endl;
-                                 cout << "persoaneje: esa cosa no es un arbol ¿Tiene ojos?"<<endl;   
+                                 cout << "persoaneje: esa cosa no es un arbol Â¿Tiene ojos?"<<endl;   
 								 cout << "El arbol abre esos ojos tan raros"<<endl; 
 								 cout << "Arbol: Hola joven veo que has estado un tiempo aqui"<<endl;
 								 cout << "Arbol: Te dire una cosa de la vida y la muerte, La muerte no encierra misterio alguno. No abre ninguna puerta."<<endl;
-								 cout << "Es el final de un ser humano. Lo que sobrevive de él es lo que ha conseguido dar de si a los demas"<<endl;
+								 cout << "Es el final de un ser humano. Lo que sobrevive de Ã©l es lo que ha conseguido dar de si a los demas"<<endl;
 								 cout << "lo que de el se guarda en la memoria de los otros."<<endl;
 								 cout<< "Pero la gente que mata no merece nada ni si quiere ser considerado humano "<<endl;
 								 cout <<"Pero parece que tu sabes de que hablo "<<endl;  
@@ -158,13 +158,13 @@ int main()
 
                             break;
                         case 4:
-                            // Código para la opción 4
-                            cout << "Entocnes decidiste pensar ¿Que seria mejor para pensar?"<<endl;
+                            // CÃ³digo para la opciÃ³n 4
+                            cout << "Entocnes decidiste pensar Â¿Que seria mejor para pensar?"<<endl;
                             cout << "        Vida: " << vida << endl;
-                            cout << "1. ¿Que es la muerte?"<<endl;
-                            cout << "2. ¿Donde estoy?"<<endl;
-                            cout << "3. ¿Soy una buena persona?"<<endl;
-                            cout << "Selecciona una opción: "<<endl;
+                            cout << "1. Â¿Que es la muerte?"<<endl;
+                            cout << "2. Â¿Donde estoy?"<<endl;
+                            cout << "3. Â¿Soy una buena persona?"<<endl;
+                            cout << "Selecciona una opciÃ³n: "<<endl;
                             cin >> decisionJuego;
 
                             if (decisionJuego == 1) 
@@ -190,11 +190,11 @@ int main()
 
                             break;
                         case 5:
-                            cout << "Regresando al menú principal." << endl;
+                            cout << "Regresando al menÃº principal." << endl;
                             regresarAlMenuPrincipal = true;  // Actualizar la variable para salir del bucle interno
                             break;
                         default:
-                            cout << "Opción no válida. Inténtalo de nuevo." << endl;
+                            cout << "OpciÃ³n no vÃ¡lida. IntÃ©ntalo de nuevo." << endl;
                              break;
                     }
 
@@ -206,11 +206,11 @@ int main()
                     else if (vida >= 3)
                     {
                         cout << "Perdiste el juego ya que tu vidas llegaron a 3 o mas." << endl;
-                        cout << "¿De verdad crees que podras tener tantas vidas? no mereces demasiado" << endl;
+                        cout << "Â¿De verdad crees que podras tener tantas vidas? no mereces demasiado" << endl;
                         return 0;  // Terminar el programa si las vidas son mayores o iguales a 6
                     }
 
-                } while (!regresarAlMenuPrincipal);  // Modificar la condición del bucle interno
+                } while (!regresarAlMenuPrincipal);  // Modificar la condiciÃ³n del bucle interno
                 break;
 
             case 2:
@@ -229,7 +229,7 @@ int main()
                 break;
 
             case 3:
-                // Código para la opción 3 (Opción adicional 1)
+                // CÃ³digo para la opciÃ³n 3 (OpciÃ³n adicional 1)
                 cout << " Juego o inteto de este " << endl;
                             cout << " Creador: Ceballos Zamora Tadeo Aaron" << endl;
                             cout << "Gamertag: Tadenacho" << endl;
@@ -245,8 +245,8 @@ int main()
                 break;
 
             case 4:
-                // Código para la opción 4 (Opción adicional 2)
-                cout << "¡Gracias por jugar! Tu aventura ha terminado." << endl;
+                // CÃ³digo para la opciÃ³n 4 (OpciÃ³n adicional 2)
+                cout << "Â¡Gracias por jugar! El juego acabo." << endl;
                 break;
 
             default:
